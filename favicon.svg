@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#0A0A0C" rx="8"/>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+        font-family="Georgia, 'Cormorant Garamond', serif"
+        font-size="34" font-weight="500" font-style="italic"
+        fill="#C9A961" letter-spacing="-1">JC</text>
+  <line x1="14" y1="48" x2="50" y2="48" stroke="#C9A961" stroke-width="1" opacity="0.6"/>
+</svg>

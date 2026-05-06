@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/og.html
+
+Sitemap: https://choi-beta.vercel.app/sitemap.xml

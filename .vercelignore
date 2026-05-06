@@ -1,0 +1,8 @@
+# 시스템·캐시
+.DS_Store
+*.log
+node_modules/
+.git/
+
+# OG 디자인 소스 (정적 png 사용)
+assets/og.html
