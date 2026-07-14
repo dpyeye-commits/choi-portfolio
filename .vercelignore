@@ -6,3 +6,10 @@ node_modules/
 
 # OG 디자인 소스 (정적 png 사용)
 assets/og.html
+
+# 원본 백업 (압축본만 배포)
+*복사본*
+assets/《逆水寒》*
+assets/기생김만덕*
+assets/과부생활*
+assets/02_volkswagen*

@@ -3,3 +3,8 @@
 node_modules/
 *.log
 # Large originals (Vercel hosts compressed only)
+*복사본*
+assets/《逆水寒》*
+assets/기생김만덕*
+assets/과부생활*
+assets/02_volkswagen*
