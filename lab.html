@@ -266,39 +266,6 @@ main{position:relative;z-index:10}
 .endcard__btn--filled{background:var(--oxblood);color:var(--paper);border-color:var(--oxblood)}
 .endcard__btn--filled:hover{background:var(--oxblood-dark);border-color:var(--oxblood-dark)}
 
-/* ─── REEL 05 — Channel Labs (블로그·티스토리·인스타그램) ─── */
-.labs{padding:max(96px,12vh) max(40px,5vw);border-bottom:1px solid var(--line);background:var(--paper-warm)}
-.labs__head{display:grid;grid-template-columns:1fr auto;align-items:end;gap:40px;margin-bottom:56px}
-.labs__title{font-family:var(--display);font-variation-settings:"opsz" 144,"SOFT" 50,"wght" 380;font-size:clamp(48px,9vw,132px);line-height:.88;letter-spacing:-.03em}
-.labs__title em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--oxblood)}
-.labs__sub{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint);max-width:30ch;text-align:right;line-height:1.8}
-.labs__list{display:flex;flex-direction:column;border-top:1px solid var(--line)}
-.lab{--accent:var(--oxblood);display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:clamp(24px,4vw,64px);padding:clamp(28px,4vh,48px) 8px;border-bottom:1px solid var(--line);position:relative;cursor:none;overflow:hidden;transition:background .45s cubic-bezier(.16,1,.3,1),padding-left .45s cubic-bezier(.16,1,.3,1),opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1)}
-.lab::before{content:"";position:absolute;left:0;top:0;bottom:0;width:0;background:var(--accent);transition:width .45s cubic-bezier(.16,1,.3,1)}
-.lab:hover{background:var(--paper);padding-left:32px}
-.lab:hover::before{width:4px}
-.lab__index{font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--ink-faint);font-weight:500;display:flex;flex-direction:column;gap:14px;min-width:72px}
-.lab__chip{display:inline-flex;align-items:center;gap:7px;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
-.lab__chip::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent)}
-.lab__main{display:flex;flex-direction:column;gap:12px;min-width:0}
-.lab__name{font-family:var(--sans);font-weight:800;font-size:clamp(24px,3vw,40px);letter-spacing:-.02em;color:var(--ink);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
-.lab__name em{font-family:var(--serif);font-style:italic;font-weight:400;font-size:.62em;color:var(--accent);letter-spacing:.01em}
-.lab__desc{font-family:var(--serif);font-size:clamp(15px,1.3vw,18px);line-height:1.5;color:var(--ink-soft);font-weight:300;max-width:54ch;font-style:italic}
-.lab__url{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink-faint)}
-.lab__go{display:flex;flex-direction:column;align-items:flex-end;gap:10px;text-align:right;white-space:nowrap}
-.lab__go-label{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);display:inline-flex;align-items:center;gap:10px;transition:gap .35s,color .35s}
-.lab__go-arrow{width:26px;height:1px;background:currentColor;position:relative}
-.lab__go-arrow::after{content:"";position:absolute;right:0;top:50%;width:7px;height:7px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-50%) rotate(-45deg)}
-.lab:hover .lab__go-label{color:var(--accent);gap:18px}
-@media(max-width:820px){
-  .labs__head{grid-template-columns:1fr;gap:20px}
-  .labs__sub{text-align:left}
-  .lab{grid-template-columns:1fr;gap:16px;padding:32px 6px}
-  .lab:hover{padding-left:16px}
-  .lab__index{flex-direction:row;justify-content:space-between;min-width:0}
-  .lab__go{flex-direction:row;align-items:center;justify-content:flex-start}
-}
-
 /* ─── footer slate ─── */
 .slate{padding:32px max(40px,5vw);background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px}
 .slate a{border-bottom:1px solid rgba(241,236,224,.4);padding-bottom:1px}
@@ -568,54 +535,8 @@ main{position:relative;z-index:10}
   </div>
 </section>
 
-<!-- REEL 05 · CHANNEL LABS (블로그·티스토리·인스타그램) -->
-<section class="labs" id="labs" data-reel="05" data-name="REEL 05 · LABS">
-  <div class="labs__head">
-    <h2 class="labs__title">실험<em>실.</em></h2>
-    <p class="labs__sub">카메라 밖에서도 실험은 계속된다 — 세 개의 채널, 세 개의 언어.</p>
-  </div>
-  <div class="labs__list">
-    <a class="lab reveal" style="--accent:#03C75A;--rd:0ms" href="https://blog.naver.com/gamzastudio" target="_blank" rel="noopener" aria-label="블로그 실험실 · 네이버 블로그 새 창에서 열기">
-      <div class="lab__index">
-        <span>LAB 01</span>
-        <span class="lab__chip">Naver Blog</span>
-      </div>
-      <div class="lab__main">
-        <h3 class="lab__name">블로그 실험실 <em>푸른청년의 사진영상 이야기</em></h3>
-        <p class="lab__desc">사진과 영상, 그 뒷이야기 — 현장의 기록과 긴 호흡의 글을 남기는 곳.</p>
-        <span class="lab__url">blog.naver.com/gamzastudio</span>
-      </div>
-      <div class="lab__go"><span class="lab__go-label">방문 <span class="lab__go-arrow"></span></span></div>
-    </a>
-    <a class="lab reveal" style="--accent:#E8551F;--rd:100ms" href="https://dpyeye.com/" target="_blank" rel="noopener" aria-label="티스토리 실험실 · 사진 영상 훈련소 새 창에서 열기">
-      <div class="lab__index">
-        <span>LAB 02</span>
-        <span class="lab__chip">Tistory</span>
-      </div>
-      <div class="lab__main">
-        <h3 class="lab__name">티스토리 실험실 <em>사진 영상 훈련소</em></h3>
-        <p class="lab__desc">모두가 전문가가 되는 그날까지 — 사진·영상 기술을 정리하고 나누는 훈련소.</p>
-        <span class="lab__url">dpyeye.com</span>
-      </div>
-      <div class="lab__go"><span class="lab__go-label">방문 <span class="lab__go-arrow"></span></span></div>
-    </a>
-    <a class="lab reveal" style="--accent:#E1306C;--rd:200ms" href="https://www.instagram.com/jaeyong_choi_/" target="_blank" rel="noopener" aria-label="인스타그램 실험실 새 창에서 열기">
-      <div class="lab__index">
-        <span>LAB 03</span>
-        <span class="lab__chip">Instagram</span>
-      </div>
-      <div class="lab__main">
-        <h3 class="lab__name">인스타그램 실험실 <em>@jaeyong_choi_</em></h3>
-        <p class="lab__desc">한 컷의 스틸과 현장의 순간들 — 프레임이 되기 전과 후의 비주얼 스크랩.</p>
-        <span class="lab__url">instagram.com/jaeyong_choi_</span>
-      </div>
-      <div class="lab__go"><span class="lab__go-label">방문 <span class="lab__go-arrow"></span></span></div>
-    </a>
-  </div>
-</section>
-
 <!-- ENDCARD -->
-<section class="endcard" id="endcard" data-reel="06" data-name="END · FRAME 28800">
+<section class="endcard" id="endcard" data-reel="05" data-name="END · FRAME 28800">
   <div class="endcard__type">Frame <em>30Y</em>.<br/>End of <em>Reel.</em></div>
   <div class="endcard__sub">
     <span>SHOOT WITH ME</span>
